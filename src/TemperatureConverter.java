@@ -13,10 +13,9 @@ public class TemperatureConverter {
         }
 
         return convertedTemp;
-    } // <--- This closes convertTemperature
+    }
 
-
-    public static void main(String[] args) {{
+    public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         boolean keepRunning = true;
 
