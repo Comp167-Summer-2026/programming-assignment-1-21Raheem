@@ -31,9 +31,9 @@ public class TemperatureConverter {
                     double result = convertTemperature(tempInput, unitInput);
 
                     if (unitInput.equalsIgnoreCase("C")) {
-                        System.out.printf("%.2f\u00B0C is equal to %.2f\u00B0°F\n", tempInput, result);
+                        System.out.printf("%.2f\u00B0C is equal to %.2f\u00B0F\n", tempInput, result);
                     } else {
-                        System.out.printf("%.2f\u00B0F is equal to %.2f\u00B0°C\n", tempInput, result);
+                        System.out.printf("%.2f\u00B0F is equal to %.2f\u00B0C\n", tempInput, result);
                     }
                 } else {
                     System.out.println("Error: Unrecognized unit label.");
